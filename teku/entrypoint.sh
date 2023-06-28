@@ -15,4 +15,5 @@ exec /opt/teku/bin/teku --log-destination=CONSOLE \
   --validator-api-keystore-file=/cert/teku_client_keystore.p12 \
   --validator-api-keystore-password-file=/cert/teku_keystore_password.txt \
   --logging=ALL \
+  --validators-keystore-locking-enabled=false \ # To avoid teku restarting
   ${EXTRA_OPTS}
