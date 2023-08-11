@@ -1,20 +1,20 @@
 [
     {
         "labels": {
-            "package": "obol-distributed-validator-goerli.dnp.dappnode.eth",
-            "service": "charon.obol-distributed-validator-goerli.dappnode"
+            "package": "obol-goerli-etherfi.dnp.dappnode.eth",
+            "service": "charon.obol-goerli-etherfi.dappnode"
         },
         "targets": [
-            "charon.obol-distributed-validator-goerli.dappnode:3620"
+            "charon.obol-goerli-etherfi.dappnode:3620"
         ]
     },
     {
         "labels": {
-            "package": "obol-distributed-validator-goerli.dnp.dappnode.eth",
-            "service": "teku.obol-distributed-validator-goerli.dappnode"
+            "package": "obol-goerli-etherfi.dnp.dappnode.eth",
+            "service": "teku.obol-goerli-etherfi.dappnode"
         },
         "targets": [
-            "teku.obol-distributed-validator-goerli.dappnode:8008"
+            "teku.obol-goerli-etherfi.dappnode:8008"
         ]
     }
 ]
