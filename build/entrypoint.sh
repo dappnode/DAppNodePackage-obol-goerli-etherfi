@@ -157,7 +157,7 @@ function import_validators() {
 }
 
 function run_charon() {
-  exec charon run --private-key-file=$ENR_PRIVATE_KEY_FILE --lock-file=$CHARON_LOCK_FILE
+  exec charon run --private-key-file=$ENR_PRIVATE_KEY_FILE --lock-file=$CHARON_LOCK_FILE --builder-api
 }
 
 ########
