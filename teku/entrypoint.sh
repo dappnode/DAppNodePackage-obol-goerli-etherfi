@@ -17,4 +17,5 @@ exec /opt/teku/bin/teku --log-destination=CONSOLE \
   --logging=${LOG_TYPE} \
   --validators-keystore-locking-enabled=false \
   --validators-proposer-config=http://charon:3600/teku_proposer_config \
+  --validators-proposer-blinded-blocks-enabled=true \
   ${EXTRA_OPTS}
